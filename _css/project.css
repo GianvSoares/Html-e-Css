@@ -2,6 +2,7 @@
 body{
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background: fixed;
 }
 div#interface{
   display: block;
@@ -10,30 +11,71 @@ div#interface{
   margin: -20px auto 20px auto;
   background: rgba(255, 255, 255, 0.9);
 }
+section#lateral {
+  display: block;
+  width: 600px;
+  float: right;
+  margin-left: 10px;
+}
 table,td{
   border: solid;
 }
 #menu ul {
-	padding:0px;
-	margin:0px;
-	background-color:#EDEDED;
-	list-style:none;
+	width: 300px;
+	height: auto;
+	background-color:#b80d07;
+	display: block;
+  margin: 0;
+  padding: 0;
+  width: 306px;
 }
 #menu ul li{
-  display: inline-block;
+  list-style: none;
+  display: block;
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #fff;
+  color: #fffafa;
+  font-family: helvetica;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
 }
-#menu ul li a {
-	padding: 2px 10px;
-	display: inline-block;
+#menu  li:hover  {
+	background:blue;
+  width: 266px;
+
 }
 
-	background-color:#EDEDED;
-	color: #444;
-	text-decoration: none;
-	border-bottom:5px solid #EDEDED;
+#menu  li  {
+	-webkit-transition:all .9s ease;
+	-moz-transition:all .9s ease;
+  -ms-transition:all .9s ease;
+  transition:all .9s ease;
 }
-#menu ul li a:hover {
-	background-color:#D6D6D6;
-	color: #7D7D7D;
-	border-bottom:5px solid #EA0000;
+h1{
+  font-family: helvetica;
+  color: #a60615;
+  text-align: center;
+  width: 1020px;
+  height: -600px;
+
+}
+
+spam#desc p{
+  margin: 0px;
+  counter-increment: none;
+  text-align:
+
+}
+hr {
+  margin: 0px;
+  color: blue;
+  border: 2px solid #000;
+  height: 1px;
+}
+
+a{
+text-decoration: none;
+color: black;
 }
